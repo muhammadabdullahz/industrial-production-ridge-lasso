@@ -1,0 +1,6 @@
+Model,RMSE (full),Relative (full),RMSE (excl. COVID),Relative (excl. COVID)
+Mean,2.161,1.021,0.948,0.928
+AR(2) Baseline,2.116,1.0,1.022,1.0
+Ridge,2.187,1.034,1.092,1.069
+Lasso,2.202,1.04,1.125,1.101
+Decision Tree,2.312,1.092,1.222,1.196
