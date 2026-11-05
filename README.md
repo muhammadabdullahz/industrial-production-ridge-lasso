@@ -6,9 +6,9 @@ An independent Python study of whether penalized regression (Ridge and Lasso) an
 
 Do high-dimensional macroeconomic predictors improve forecasts of industrial production growth relative to an autoregressive (AR) model and the historical mean?
 
-Industrial production (INDPRO) measures the real output of U.S. manufacturing, mining and utilities. It is a central indicator of the business cycle, so accurate forecasts are valuable for policy and planning. Many macroeconomic series are related to future output, but they are also strongly correlated with each other. Regularized regression methods are designed for this setting. Ridge shrinks all coefficients toward zero. Lasso shrinks some coefficients to exactly zero and therefore selects variables. This project tests whether these methods deliver better forecasts in practice.
+Industrial production (INDPRO) measures the real output of U.S. manufacturing, mining and utilities. It is a central indicator of the business cycle, so accurate forecasts are valuable for policy and planning. Many macroeconomic series are related to future output, but they are also strongly correlated with each other. Regularized regression methods are designed for this setting.
 
-The models are trained on data from 1960 to 2009 and evaluated on data from 2010 to 2026. The test period includes the COVID-19 shock in 2020, so results are reported both with and without that episode.
+In this project, the models are trained on data from 1960 to 2009 and evaluated on data from 2010 to 2026. The test period includes the COVID-19 shock in 2020, so results are reported both with and without that episode.
 
 ## Data
 
